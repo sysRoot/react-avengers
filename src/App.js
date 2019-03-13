@@ -7,11 +7,13 @@ class App extends Component {
     this.state = {
       avengers: [
         {'name': `Ant-Man`, 'id': (Math.random() + Date.now() * 0.99)},
-        {'name': `Spider-Man`, 'id': (Math.random() + Date.now() * 0.99)},        {'name': `Ant-Man`, 'id': (Math.random() + Date.now() * 0.99)},
-        {'name': `Deadpool`, 'id': (Math.random() + Date.now() * 0.99)},        {'name': `Ant-Man`, 'id': (Math.random() + Date.now() * 0.99)},
-        {'name': `Dr Strange`, 'id': (Math.random() + Date.now() * 0.99)},        {'name': `Ant-Man`, 'id': (Math.random() + Date.now() * 0.99)},
-        {'name': `Hawkeye`, 'id': (Math.random() + Date.now() * 0.99)},        {'name': `Ant-Man`, 'id': (Math.random() + Date.now() * 0.99)},
-        {'name': `Hulk`, 'id': (Math.random() + Date.now() * 0.99)},        {'name': `Ant-Man`, 'id': (Math.random() + Date.now() * 0.99)},
+        {'name': `Spider-Man`, 'id': (Math.random() + Date.now() * 0.99)},        
+        {'name': `Captain America`, 'id': (Math.random() + Date.now() * 0.99)},
+        {'name': `Deadpool`, 'id': (Math.random() + Date.now() * 0.99)},
+        {'name': `Black Widow`, 'id': (Math.random() + Date.now() * 0.99)},
+        {'name': `Dr Strange`, 'id': (Math.random() + Date.now() * 0.99)},
+        {'name': `Hawkeye`, 'id': (Math.random() + Date.now() * 0.99)},
+        {'name': `Hulk`, 'id': (Math.random() + Date.now() * 0.99)},
         {'name': `Iron Man`, 'id': (Math.random() + Date.now() * 0.99)},
       ]
     };
